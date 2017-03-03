@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{045421b2-ba8e-4406-88b7-89a68d016ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{a8adf41b-db65-472b-bf85-aae6db0fb23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{19754989-833f-45f6-b085-425416740dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{188955e2-249e-4b91-b3aa-2fab1ca8c45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{2004ac55-5802-4ed0-bd64-07443f175f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{657d4eb8-8479-40d1-9499-827f25e43091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{7b26f03d-2170-4aaa-b176-747746fac881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{5ac788ca-6d98-450b-8860-b8eb1c88bb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{f50c5d97-86ce-4475-b612-266c2a3fc2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{8fdce5bb-36e7-40a0-9cb3-4eaf92729675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{0a20df38-ce51-4727-85da-f8af4059ae87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{3e6b0533-60ae-4cdd-81a8-203fe8ad6b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{833dbc8b-8bfe-4c1b-ac53-b7804cea4edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{e78a2fbc-b7cf-41e5-8ea9-7acb8087a3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Buffers">
+      <UniqueIdentifier>{e09b4eba-04df-476e-80d4-6ca075895506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Model">
+      <UniqueIdentifier>{c4c72d97-e768-4646-8c74-0f143b787452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Model\OBJ">
+      <UniqueIdentifier>{87f63671-f005-4662-8354-776dc96eb2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Model">
+      <UniqueIdentifier>{2b757d93-3c3e-40d4-8425-6f5ae52101de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Model\OBJ">
+      <UniqueIdentifier>{4d7753fc-3ceb-436c-8777-1f3bbd516326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Vector">
+      <UniqueIdentifier>{19fb6c37-5a42-4ec9-8fdd-71dd6d2efb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Vector">
+      <UniqueIdentifier>{68fde63b-3117-48a9-926d-3f832deae221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffers">
+      <UniqueIdentifier>{d668befb-3246-4f59-824b-0fa1198b721d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Buffers\Direct3D10">
+      <UniqueIdentifier>{bade76d7-f114-4f54-bd4b-4541d22b1521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffers\Direct3D10">
+      <UniqueIdentifier>{5adb7ba2-2ea1-4b3c-bad1-8570e0817b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Matrix">
+      <UniqueIdentifier>{8bc2a2da-1cac-4e23-8a6b-5e28f503ede0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Camera">
+      <UniqueIdentifier>{08d9ff08-4f74-4b70-b5d9-4de71d820145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Camera">
+      <UniqueIdentifier>{8d4b5d29-9819-4d21-8f37-0eb27c5ed91d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Singleton.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Manager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\VenomEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Application.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ConsoleManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ApplicationManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Clock.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineDefs.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\WindowManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\GraphicsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IVenomRenderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Direct3D10Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\VenomObject.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Buffers\IVenomVertexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Buffers\IVenomIndexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\VenomObjectFactory.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Model\Model.h">
+      <Filter>Header Files\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Model\OBJ\OBJModel.h">
+      <Filter>Header Files\Object\Model\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector\Vector3.h">
+      <Filter>Header Files\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector\Vector4.h">
+      <Filter>Header Files\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Buffers\Direct3D10\Direct3D10VertexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers\Direct3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Buffers\Direct3D10\Direct3D10IndexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers\Direct3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix\Matrix.h">
+      <Filter>Header Files\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\IVenomObject.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Camera\Camera.h">
+      <Filter>Header Files\Object\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VenomEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\VenomEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Manager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ConsoleManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ApplicationManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Clock.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\WindowManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\GraphicsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Direct3D10Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\VenomObjectFactory.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Model\Model.cpp">
+      <Filter>Source Files\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Model\OBJ\OBJModel.cpp">
+      <Filter>Source Files\Object\Model\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Buffers\Direct3D10\Direct3D10VertexBuffer.cpp">
+      <Filter>Source Files\Graphics\Buffers\Direct3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Buffers\Direct3D10\Direct3D10IndexBuffer.cpp">
+      <Filter>Source Files\Graphics\Buffers\Direct3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\VenomObject.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Camera\Camera.cpp">
+      <Filter>Source Files\Object\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
