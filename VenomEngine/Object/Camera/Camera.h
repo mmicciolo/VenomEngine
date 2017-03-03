@@ -1,3 +1,11 @@
+/*
+File : Camera.h
+Author: Matthew Micciolo
+
+A base class for a camera. Provides some very basic functions.
+The user will have to extend this to add input.
+*/
+
 #ifndef __CAMERA_
 #define __CAMERA_
 

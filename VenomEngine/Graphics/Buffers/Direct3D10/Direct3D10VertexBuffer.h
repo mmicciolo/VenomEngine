@@ -1,3 +1,10 @@
+/*
+File : Direct3D10VertexBuffer.h
+Author: Matthew Micciolo
+
+Implementation of IVenomVertexBuffer for Direct3D10.
+*/
+
 #ifndef __Direct3D10_VERTEX_BUFFER_
 #define __Direct3D10_VERTEX_BUFFER_
 

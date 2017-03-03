@@ -1,3 +1,10 @@
+/*
+File : IVenomVertexBuffer.h
+Author: Matthew Micciolo
+
+Interface for any vertex buffers in the engine.
+*/
+
 #ifndef __IVENOM_VERTEX_BUFFER_
 #define __IVENOM_VERTEX_BUFFER_
 

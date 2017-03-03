@@ -1,3 +1,10 @@
+/*
+File : Direct3D10IndexBuffer.h
+Author: Matthew Micciolo
+
+Implementation of IVenomIndexBuffer for Direct3D10.
+*/
+
 #ifndef __Direct3D10_INDEX_BUFFER_
 #define __Direct3D10_INDEX_BUFFER_
 

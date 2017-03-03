@@ -1,3 +1,10 @@
+/*
+File : VenomObjectFactory.h
+Author: Matthew Micciolo
+
+Produces different venom objects such as models, etc.
+*/
+
 #ifndef __VENOM_OBJECT_FACTORY_
 #define __VENOM_OBJECT_FACTORY_
 

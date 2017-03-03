@@ -1,3 +1,10 @@
+/*
+File : IVenomIndexBuffer.h
+Author: Matthew Micciolo
+
+Interface for any index buffers in the engine.
+*/
+
 #ifndef __IVENOM_INDEX_BUFFER_
 #define __IVENOM_INDEX_BUFFER_
 

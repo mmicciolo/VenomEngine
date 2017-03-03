@@ -1,3 +1,10 @@
+/*
+File : Application.h
+Author: Matthew Micciolo
+
+This class wraps some engine functionality so the user doesnt have to
+*/
+
 #ifndef __APPLICATION_
 #define __APPLICATION_
 

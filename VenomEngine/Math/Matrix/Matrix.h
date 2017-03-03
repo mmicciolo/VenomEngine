@@ -1,3 +1,10 @@
+/*
+File : Matrix.h
+Author: Matthew Micciolo
+
+Engine matrix implementation.
+*/
+
 #ifndef __MATRIX_
 #define __MATRIX_
 

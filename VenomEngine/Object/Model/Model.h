@@ -1,3 +1,10 @@
+/*
+File : Model.h
+Author: Matthew Micciolo
+
+Base class for any 3d model.
+*/
+
 #ifndef __MODEL_
 #define __MODEL_
 
