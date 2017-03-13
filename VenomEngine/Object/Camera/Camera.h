@@ -10,8 +10,7 @@ The user will have to extend this to add input.
 #define __CAMERA_
 
 #include "../VenomObject.h"
-#include <d3d10.h>
-#include <d3dx10.h>
+#include "../../Graphics/Direct3D10Includes.h"
 
 namespace VenomEngine {
 	class Camera : public VenomObject {

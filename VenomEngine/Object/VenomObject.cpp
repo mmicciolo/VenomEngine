@@ -1,4 +1,5 @@
 #include "VenomObject.h"
+#include "../Managers/SceneManager.h"
 
 namespace VenomEngine {
 	VenomObject::VenomObject() {
@@ -31,5 +32,9 @@ namespace VenomEngine {
 
 	void VenomObject::Render() {
 
+	}
+
+	void VenomObject::ObjectAdded() {
+		SceneManager::Instance()->AddObject(this);
 	}
 }

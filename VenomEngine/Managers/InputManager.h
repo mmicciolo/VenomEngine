@@ -8,11 +8,8 @@ Header file for all input related things such as keyboard, mouse, controllers, e
 #ifndef __INPUT_MANAGER_
 #define __INPUT_MANAGER_
 
-#include "../Engine/EngineDefs.h"
 #include "Manager.h"
-#include "ConsoleManager.h"
 #include "../Common/Singleton.h"
-#include "ConsoleManager.h"
 
 namespace VenomEngine {
 	enum VenomKey {

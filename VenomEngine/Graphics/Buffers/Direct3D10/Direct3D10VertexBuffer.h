@@ -9,8 +9,7 @@ Implementation of IVenomVertexBuffer for Direct3D10.
 #define __Direct3D10_VERTEX_BUFFER_
 
 #include "../IVenomVertexBuffer.h"
-#include <d3d10.h>
-#include <d3dx10.h>
+#include "../../Direct3D10Includes.h"
 
 namespace VenomEngine {
 

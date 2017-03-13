@@ -8,16 +8,14 @@ This class implments the IVenomRenderer Interface.
 #ifndef __DIRECT3D11_RENDERER_
 #define __DIRECT3D11_RENDERER_
 
-#include "../Graphics/IVenomRenderer.h"
 #include <Windows.h>
-#include <d3d10.h>
-#include <d3dx10.h>
 #include <vector>
+
+#include "../Graphics/IVenomRenderer.h"
+#include "Direct3D10Includes.h"
 #include "../Object/Model/Model.h"
 #include "../Graphics/Buffers/Direct3D10/Direct3D10VertexBuffer.h"
 #include "../Graphics/Buffers/Direct3D10/Direct3D10IndexBuffer.h"
-//#include "../Managers/SceneManager.h"
-
 
 struct Vertex
 {

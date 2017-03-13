@@ -20,6 +20,7 @@ namespace VenomEngine {
 		virtual int GetType() { return 0; };
 		virtual void UpdateTransforms() {};
 		virtual void Render() {};
+		virtual void ObjectAdded() {};
 	protected:
 	private:
 	};

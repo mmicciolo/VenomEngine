@@ -10,12 +10,7 @@ This class provides all of the functions to render graphics to a window
 
 #include "Manager.h"
 #include "../Common/Singleton.h"
-#include "../Engine/EngineDefs.h"
-#include "ConsoleManager.h"
-#include "WindowManager.h"
 #include "../Graphics/IVenomRenderer.h"
-#include "../Graphics/Direct3D10Renderer.h"
-#include "SceneManager.h"
 
 namespace VenomEngine {
 	class GraphicsManager : public Manager, public Singleton<GraphicsManager> {

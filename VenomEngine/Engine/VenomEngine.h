@@ -8,10 +8,7 @@ calls.
 
 #include <vector>
 #include "../Common/Singleton.h"
-#include "../Managers/Manager.h"
 #include "../Managers/WindowManager.h"
-#include "../Managers/ConsoleManager.h"
-#include "../Managers/ApplicationManager.h"
 
 
 #ifndef __VENOM_ENGINE_

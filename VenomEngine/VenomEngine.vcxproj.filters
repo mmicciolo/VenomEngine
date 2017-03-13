@@ -183,6 +183,9 @@
     <ClInclude Include="Object\Camera\Camera.h">
       <Filter>Header Files\Object\Camera</Filter>
     </ClInclude>
+    <ClInclude Include="Graphics\Direct3D10Includes.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VenomEngine.rc">

@@ -12,10 +12,6 @@ the world, display, input, etc.
 #include "Manager.h"
 #include "../Common/Singleton.h"
 #include "../Engine/Clock.h"
-#include "../Engine/EngineDefs.h"
-#include "SceneManager.h"
-#include "GraphicsManager.h"
-#include <Windows.h>
 
 namespace VenomEngine {
 	class ApplicationManager : public Manager, public Singleton<ApplicationManager> {

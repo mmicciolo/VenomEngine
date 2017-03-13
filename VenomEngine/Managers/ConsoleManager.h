@@ -9,15 +9,14 @@ and will be replicated in the GUI in the engine.
 #ifndef __CONSOLE_MANAGER_
 #define __CONSOLE_MANAGER_
 
-#include "Manager.h"
-#include "../Engine/EngineDefs.h"
-#include "../Common/Singleton.h"
 #include <iostream>
 #include <fstream>
 #include <io.h>
 #include <fcntl.h>
-
 #include <Windows.h>
+
+#include "Manager.h"
+#include "../Common/Singleton.h"
 
 namespace VenomEngine {
 	class ConsoleManager : public Manager, public Singleton<ConsoleManager> {

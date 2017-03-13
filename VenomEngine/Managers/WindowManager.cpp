@@ -1,4 +1,8 @@
 #include "WindowManager.h"
+#include "ConsoleManager.h"
+#include "GraphicsManager.h"
+#include "InputManager.h"
+#include "../Engine/EngineDefs.h"
 
 namespace VenomEngine {
 	WindowManager::WindowManager() {

@@ -10,11 +10,7 @@ window on the screen.
 #define __WINDOW_MANAGER_
 
 #include "Manager.h"
-#include "../Engine/EngineDefs.h"
-#include "InputManager.h"
 #include "../Common/Singleton.h"
-#include "ConsoleManager.h"
-#include "GraphicsManager.h"
 #include <Windows.h>
 
 namespace VenomEngine {

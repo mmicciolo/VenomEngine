@@ -1,4 +1,5 @@
 #include "ConsoleManager.h"
+#include "../Engine/EngineDefs.h"
 
 namespace VenomEngine {
 	ConsoleManager::ConsoleManager() {

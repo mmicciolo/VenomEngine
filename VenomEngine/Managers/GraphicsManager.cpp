@@ -1,4 +1,9 @@
 #include "GraphicsManager.h"
+#include "ConsoleManager.h"
+#include "WindowManager.h"
+#include "SceneManager.h"
+#include "../Graphics/Direct3D10Renderer.h"
+#include "../Engine/EngineDefs.h"
 
 namespace VenomEngine {
 	GraphicsManager::GraphicsManager() {

@@ -147,6 +147,7 @@
     <ClInclude Include="Graphics\Buffers\Direct3D10\Direct3D10VertexBuffer.h" />
     <ClInclude Include="Graphics\Buffers\IVenomIndexBuffer.h" />
     <ClInclude Include="Graphics\Buffers\IVenomVertexBuffer.h" />
+    <ClInclude Include="Graphics\Direct3D10Includes.h" />
     <ClInclude Include="Graphics\IVenomRenderer.h" />
     <ClInclude Include="Managers\ApplicationManager.h" />
     <ClInclude Include="Managers\ConsoleManager.h" />

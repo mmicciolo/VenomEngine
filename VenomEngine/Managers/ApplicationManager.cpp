@@ -1,4 +1,8 @@
 #include "ApplicationManager.h"
+#include "SceneManager.h"
+#include "GraphicsManager.h"
+#include "../Engine/EngineDefs.h"
+#include <Windows.h>
 
 namespace VenomEngine {
 	ApplicationManager::ApplicationManager() {

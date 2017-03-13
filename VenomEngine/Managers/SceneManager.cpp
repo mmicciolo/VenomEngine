@@ -1,4 +1,5 @@
 #include "SceneManager.h"
+#include "../Managers/GraphicsManager.h"
 
 namespace VenomEngine {
 	SceneManager::SceneManager() {

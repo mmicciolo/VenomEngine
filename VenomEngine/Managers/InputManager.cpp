@@ -1,4 +1,6 @@
 #include "InputManager.h"
+#include "ConsoleManager.h"
+#include "../Engine/EngineDefs.h"
 
 namespace VenomEngine {
 	InputManager::InputManager() {

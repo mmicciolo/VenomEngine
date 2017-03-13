@@ -1,4 +1,9 @@
 #include "VenomEngine.h"
+#include "../Managers/ConsoleManager.h"
+#include "../Managers/ApplicationManager.h"
+#include "../Managers/SceneManager.h"
+#include "../Managers/InputManager.h"
+#include "../Managers/GraphicsManager.h"
 
 namespace VenomEngine {
 	Engine::Engine() {

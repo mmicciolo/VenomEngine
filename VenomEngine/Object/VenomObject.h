@@ -11,8 +11,6 @@ This class is the base class for all objects that reside inside of the engine
 #include "../Math/Vector/Vector3.h"
 #include "../Math/Matrix/Matrix.h"
 #include "IVenomObject.h"
-#include <d3d10.h>
-#include <d3dx10.h>
 
 using namespace VenomEngine;
 
@@ -38,6 +36,7 @@ namespace VenomEngine {
 		//Vector3 GetRotation();
 		//Vector3 GetScale();
 		int GetType();
+		void ObjectAdded();
 	protected:
 		VenomObjectType type;
 		D3DXMATRIX world;

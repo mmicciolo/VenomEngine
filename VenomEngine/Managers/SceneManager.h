@@ -12,11 +12,8 @@ This manager handles all interaction with the world and scene.
 #include "../Common/Singleton.h"
 #include "../Object/VenomObject.h"
 #include <vector>
-#include "../Managers/GraphicsManager.h"
 #include "../Graphics/Direct3D10Renderer.h"
 #include "../Object/Camera/Camera.h"
-#include <d3d10.h>
-#include <d3dx10.h>
 
 namespace VenomEngine {
 	class SceneManager : public Manager, public Singleton<SceneManager> {

@@ -9,8 +9,7 @@ Implementation of IVenomIndexBuffer for Direct3D10.
 #define __Direct3D10_INDEX_BUFFER_
 
 #include "../IVenomIndexBuffer.h"
-#include <d3d10.h>
-#include <d3dx10.h>
+#include "../../Direct3D10Includes.h"
 
 
 namespace VenomEngine {
