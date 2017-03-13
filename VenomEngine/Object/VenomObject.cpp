@@ -26,15 +26,15 @@ namespace VenomEngine {
 		return type;
 	}
 
-	void VenomObject::UpdateTransforms() {
+	void VenomObject::Init() {
+		SceneManager::Instance()->AddObject(this);
+	}
+
+	void VenomObject::Update() {
 
 	}
 
 	void VenomObject::Render() {
 
-	}
-
-	void VenomObject::ObjectAdded() {
-		SceneManager::Instance()->AddObject(this);
 	}
 }

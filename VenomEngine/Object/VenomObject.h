@@ -27,16 +27,16 @@ namespace VenomEngine {
 	class VenomObject : public IVenomObject {
 	public:
 		VenomObject();
-		void UpdateTransforms();
-		void SetPosition(Vector3 position);
+		void Init();
+		void Update();
 		void Render();
+		void SetPosition(Vector3 position);
 		//void SetRotation(Vector3 rotation);
 		//void SetScale(Vector3 scale);
 		Vector3 GetPosition();
 		//Vector3 GetRotation();
 		//Vector3 GetScale();
 		int GetType();
-		void ObjectAdded();
 	protected:
 		VenomObjectType type;
 		D3DXMATRIX world;

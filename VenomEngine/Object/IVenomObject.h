@@ -15,12 +15,12 @@ namespace VenomEngine {
 	class IVenomObject {
 	public:
 		IVenomObject() {};
+		virtual void Init() {};
+		virtual void Update() {};
+		virtual void Render() {};
 		virtual void SetPosition(Vector3 position) {};
 		virtual Vector3 GetPosition() { return Vector3(0, 0, 0); };
 		virtual int GetType() { return 0; };
-		virtual void UpdateTransforms() {};
-		virtual void Render() {};
-		virtual void ObjectAdded() {};
 	protected:
 	private:
 	};

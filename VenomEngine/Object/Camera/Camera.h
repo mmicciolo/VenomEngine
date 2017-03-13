@@ -16,7 +16,9 @@ namespace VenomEngine {
 	class Camera : public VenomObject {
 	public:
 		Camera();
-		void UpdateTransforms();
+		void Init();
+		void Update();
+		void Render();
 		D3DXMATRIX GetView();
 		D3DXMATRIX GetProjection();
 	protected:

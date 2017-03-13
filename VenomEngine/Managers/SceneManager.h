@@ -27,13 +27,12 @@ namespace VenomEngine {
 		void UpdateScene();
 		void RenderScene();
 		std::vector<IVenomObject *> GetSceneObjects();
+		void SetCurrentCamera(Camera * camera);
 		Camera * GetCurrentCamera();
 	protected:
 	private:
 		std::vector<IVenomObject *> sceneObjects;
-		//Matrix Projection;
 		Camera * currentCamera;
-		D3DXMATRIX projection;
 	};
 }
 

@@ -17,8 +17,9 @@ namespace VenomEngine {
 	class Model : public VenomObject {
 	public:
 		Model();
-		void Render(D3DXMATRIX view, D3DXMATRIX projection);
-		void UpdateTransforms();
+		void Init();
+		void Update();
+		void Render();
 		IVenomVertexBuffer * vertexBuffer;
 		IVenomIndexBuffer  * indexBuffer;
 		ID3D10Effect* FX;
